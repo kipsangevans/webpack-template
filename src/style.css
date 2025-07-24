@@ -1,25 +1,24 @@
 @font-face {
-  font-family: 'MyFont';
-  src: url('./fonts/AlexBrush-Regular.ttf') format('truetype');
+  font-family: "MyFont";
+  src: url("./fonts/AlexBrush-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  background-image: url('./background.jpg');
+  background-image: url("./background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'MyFont', sans-serif;
+  font-family: "MyFont", sans-serif;
   color: aliceblue;
   font-size: 60px;
   font-weight: 900;
   padding: 20px;
 }
-.overlay{
-
+.overlay {
   text-align: center;
   opacity: 0.8;
 }
@@ -34,79 +33,75 @@ body {
   text-align: center;
   padding-top: 0px;
 }
-nav{
+nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-
-  
 }
-button{
-opacity: 0.7;
+button {
+  opacity: 0.7;
   background-color: rgba(0, 0, 0, 5);
   color: antiquewhite;
-    border-radius: 50px;
+  border-radius: 50px;
   padding: 30px;
-  font-family:'MyFont';
-font-size: 2rem;
-
+  font-family: "MyFont";
+  font-size: 2rem;
 }
-.home{
+.home {
   background-color: rgba(0, 0, 0, 5);
   padding: 2rem;
   border-radius: 170px;
   color: white;
- 
+
   margin: auto;
   text-align: center;
   padding-top: 0px;
   opacity: 0.7;
 }
 
- h2 {
-      margin:  12px 5px;
-      text-align: center;
-      background-color: #251f1f;
-      border-radius: 10px;
-      
-    }
+h2 {
+  margin: 12px 5px;
+  text-align: center;
+  background-color: #251f1f;
+  border-radius: 10px;
+}
 
-    .menu-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, .3fr));
-      gap: 20px;
-      margin-top: 20px;
-      text-align: center;
-    }
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.3fr));
+  gap: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
 
-    .menu-item {
-      background: #251f1f;
-      opacity: 0.7;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      padding: 10px;
-      transition: transform 0.2s;
-    }
+.menu-item {
+  background: #251f1f;
+  opacity: 0.7;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.2s;
+}
 
-    .menu-item:hover {
-      transform: scale(1.03);
-    }
+.menu-item:hover {
+  transform: scale(1.03);
+}
 
-    .menu-item img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
+.menu-item img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
-    .menu-item h4 {
-      margin: 10px 0 5px;
-      font-size: 1rem;
-    }
+.menu-item h4 {
+  margin: 10px 0 5px;
+  font-size: 1rem;
+}
 
-    .menu-item p {
-      margin: 0;
-      color: #555;
-    }
+.menu-item p {
+  margin: 0;
+  color: #555;
+}
